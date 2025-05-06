@@ -1,0 +1,287 @@
+html{
+    font-size: calc(1vw/19.2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.8s ease-in-out;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Marske";
+    font-size: 60rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 130rem;
+    width: 100%;
+    gap: 323rem;
+}
+.logo{
+    display: flex;
+    height: 94rem;
+    width: 207rem;
+}
+.header__menu{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    gap: 243rem;
+    flex-direction: row;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-size: 24rem;
+    list-style-type: none;
+}
+.number{
+    display: flex;
+    flex-direction: row;
+    gap: 141rem;
+    align-items: center;
+    margin: 84rem 0rem;
+}
+.number__text{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 28rem;
+}
+.number__text ul{
+    margin-left: 28rem;
+}
+.number__img img{
+    height: 499rem;
+    width: 694rem;
+}
+.number__img__gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9rem;
+    margin-top: 26rem;
+}
+.number__img__gallery img{
+    height: 79rem;
+    width: 140rem;
+}
+.number__btn{
+    margin-top: 13rem;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 28rem;
+    background-color: #fff;
+    border: 2rem #000 solid;
+    padding: 14rem 42.5rem;
+    border-radius: 15rem;
+}
+.zones__content{
+    display: flex;
+    flex-direction: row;
+    gap: 63rem;
+    align-items: center;
+}
+.zones__content img{
+    height: 539rem;
+    width: 829rem;
+    margin: 45rem 0rem;
+}
+.zones__content p{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 28rem;
+    height: 408rem;
+    width: 563rem;
+}
+footer{
+    display: flex;
+    height: 200rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 318rem;
+}
+footer p{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 20rem;
+}
+.footer__menu{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    gap: 38rem;
+    flex-direction: row;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-size: 24rem;
+    list-style-type: none;
+}
+.footer__social{
+    display: flex;
+    flex-direction: row;
+    gap: 34rem;
+}
+.footer__social img{
+    height: 60rem;
+    width: 60rem;
+}
+.popup{
+    display: none;
+    height: 704rem;
+    width: 1011rem;
+    opacity: 0;
+    transform: translateY(100%);
+    background-color: #fff;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    transition: .5s ease-in-out;
+}
+.popup > *:not(h2, .popup__btn){
+    margin-left: 100rem;
+}
+.name{
+    display: block;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 20rem;
+    height: 38rem;
+    width: 628rem;
+    border: 0;
+    border-bottom: 1rem solid black;
+    margin-bottom: 74rem;
+    margin-top: 29rem;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.popup__name{
+    margin-top: 66rem;
+}
+.people, .nights{
+    text-align: center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    height: 50rem;
+    width: 50rem;
+    border-bottom: 1rem solid black;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 24rem;
+    margin-bottom: 36rem;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.number_class{
+    text-align: center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    height: 50rem;
+    width: 240rem;
+    border-bottom: 1rem solid black;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 20rem;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.popup h2{
+    display: flex;
+    font-family: "Marske";
+    font-size: 50rem;
+    justify-content: center;
+    margin-top: 25rem;
+}
+.popup a{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 32rem;
+    padding-right: 35rem;
+}
+.popup__btn{
+    cursor: pointer;
+    margin-left: 248rem;
+    margin-top: 66rem;
+    background-color: #000;
+    color: #fff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 32rem;
+    border: 0;
+    border-radius: 15rem;
+    height: 73rem;
+    width: 516rem;
+}
+.popup__close {
+    position: absolute;
+    border: none;
+    background: transparent;
+    right: 10rem;
+    top: 3rem;
+    width: 55rem;
+    height: 55rem;
+}
+.popup__close:before, .popup__close:after {
+    position: absolute;
+    content: ' ';
+    height: 33rem;
+    width: 1rem;
+    background-color: #000;
+}
+.popup__close:before {
+    transform: rotate(45deg);
+}
+.popup__close:after {
+    transform: rotate(-45deg);
+}
+.goanime{
+    animation: gg .5s ease-in-out;
+    display: flex;
+    transform: translateY(-150%);
+    opacity: 1;
+}
+@keyframes gg {
+    0%{
+        transform: translateY(30%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(-150%);
+        opacity: 1;
+    }
+}
+.closeanime{
+    animation: close .5s ease-in-out;
+    transform: translateY(30%);
+    opacity: 0;
+    display: flex;
+}
+@keyframes close {
+    0%{
+        transform: translateY(-150%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(30%);
+        opacity: 0;
+    }
+
+}

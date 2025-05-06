@@ -1,0 +1,136 @@
+html{
+    font-size: calc(1vw/19.2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Marske";
+    font-size: 60rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 130rem;
+    width: 100%;
+    gap: 323rem;
+}
+.logo{
+    display: flex;
+    height: 94rem;
+    width: 207rem;
+}
+.header__menu{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    gap: 243rem;
+    flex-direction: row;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-size: 24rem;
+    list-style-type: none;
+}
+.history{
+    margin: 78rem 0rem;
+}
+.history__content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 132rem;
+    margin-top: 52rem;
+}
+.history__content img{
+    height: 539rem;
+    width: 829rem;
+}
+.history__content p{
+    height: 476rem;
+    width: 563rem;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 28rem;
+}
+.staff{
+    margin-bottom: 108rem;
+}
+.staff__content{
+    display: flex;
+    flex-direction: row;
+    gap: 80rem;
+    margin-top: 34rem;
+}
+.staff_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.staff_cards h3{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 36rem;
+    margin-bottom: 9rem;
+}
+.staff_cards p{
+    text-align: center;
+    height: 72rem;
+    width: 329rem;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 20rem;
+}
+.staff_cards img{
+    margin-bottom: 12rem;
+    height: 329rem;
+    width: 329rem;
+}
+footer{
+    display: flex;
+    height: 200rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 318rem;
+}
+footer p{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 20rem;
+}
+.footer__menu{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    gap: 38rem;
+    flex-direction: row;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-size: 24rem;
+    list-style-type: none;
+}
+.footer__social{
+    display: flex;
+    flex-direction: row;
+    gap: 34rem;
+}
+.footer__social img{
+    height: 60rem;
+    width: 60rem;
+}
